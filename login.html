@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e Cadastro</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <h2>Já é cadastrado?</h2>
+            <form>
+                <input type="email" placeholder="Ex: 0000000@gmail.com" required>
+                <input type="password" placeholder="Digite sua senha" required>
+                <button type="submit">ENTRAR</button>
+                <div class="social-login">
+                    <button>Entrar com Facebook</button>
+                    <button>Entrar com Google</button>
+                </div>
+            </form>
+        </div>
+        <div class="register">
+            <h2>Faça seu registro</h2>
+            <form>
+                <input type="text" placeholder="Nome completo" required>
+                <input type="email" placeholder="Ex: 0000000@gmail.com" required>
+                <input type="password" placeholder="Digite sua senha" required>
+                <input type="password" placeholder="Confirme sua senha" required>
+                <input type="text" placeholder="CPF" required>
+                <input type="text" placeholder="Data de nascimento (Dia/Mês/Ano)" required>
+                <input type="text" placeholder="Telefone" required>
+                <div class="gender">
+                    <label><input type="radio" name="gender" value="male"> Masculino</label>
+                    <label><input type="radio" name="gender" value="female"> Feminino</label>
+                    <label><input type="radio" name="gender" value="Outro">Outro</label>
+                </div>
+                <button type="submit">CADASTRAR</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
